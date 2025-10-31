@@ -1,0 +1,13 @@
+prefix=/Users/rubentamang/Desktop/MLProject/ven
+exec_prefix=/Users/rubentamang/Desktop/MLProject/ven
+libdir=/Users/rubentamang/Desktop/MLProject/ven/lib
+sharedlibdir=/Users/rubentamang/Desktop/MLProject/ven/lib
+includedir=/Users/rubentamang/Desktop/MLProject/ven/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
