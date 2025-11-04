@@ -1,6 +1,25 @@
+
 node_modules/
 *.pyc
 venv/
 .DS_Store
 build/
+logs/
+*.pyc
+venv/
+# Ignore logs and temporary files
+logs/
+*.log
+*.pyc
+__pycache__/
+
+# Ignore virtual environment
+venv/
+ven/
+.env/
+
+# Ignore macOS system files
+.DS_Store
+
+
 
